@@ -5,7 +5,7 @@ int main() {
     int n = -2;
     DIR *dir;
     struct dirent *entry;
-    if ((dir = opendir("путь к папке")) != NULL) 
+    if ((dir = opendir("PATH")) != NULL) 
     {
         while ((entry = readdir(dir)) != NULL)
         {
